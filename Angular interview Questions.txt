@@ -1,0 +1,69 @@
+1. What are components in Angular? 
+2. What is @Input and @Output?
+3. How Angular load data from database?: services
+4. How many types of directives in Angular?: 3, attribute, structural, components
+5. What are attribute and structural directives?
+6. What are pipes and How they use?
+7. What is dependency injection in Angular and How it works?
+8. What is the purpose of Providers and View Providers?: VP dont share instance with content children
+9. What are services? Reusable code common code, http, bussness logic etc (no html)
+10. What are main modules and feature modules in angular? app moduel main, other module we create are feature moduel
+11. How Angular loads in browser?
+12. What is material? Theam provided by angular
+13. what is scss and why and how it is used in angular?
+14. How many types of forms in Angular and what they are?
+15. What is ng-pristine, ng-dirty and ng-touched/untouched?
+16. what is FormGroup?
+17. What is lazy loading?
+18. How routing is used in Angular?
+19. Why Angular is so popular these days?
+20. what are sourcemap files in Angular?: the file which keep maping of ts file wiht you js file when debugging 
+21. What is decleration, Imports, Exports, Entry Components in Angular?
+22. How to conditionaly load or unload element in Angular? ngSwitch and ngIf
+23. How to iteratre on array in angular templates? ngFor
+24. What is lifecycles hooks in Angular? ngOnchnges, OnInit, ng
+24. What are the order of lifecycles hooks?
+25. What is differnce between directive and Components?
+26. What are interceptors?
+27. What is HttpClient service in Angular?
+28. How to take care of security in Angular?
+29. What do you mean by singleton and How angular deals with it? : single instance through out application
+30. What are Guards in Angular and how many types if guards in angular? canActive, canDeactive Canload canloadchildrn
+31. How to handle errors in Angular?: http error in catch, excetpin
+32. why use export keyword in front of class?
+33. What are observables in Angular?
+31. What is difference between in Promise and observables? both are asic but observable only calls on subscribe but promie fire 
+32. What are Validators, FormControl, FormControlName, FormGroupName, FormArray in Angular?
+33. How to load angular in browser in such a way that it only load requested things fron server so that it loads very quickly first time?
+34. What happen if angular version is updated on server what clients not see the changes of uploaded version? clean browser cache
+35. What is Router Outlet in Angular? 
+36. How to configue routes in angular?
+37. What is ng-template and ng-container in Angular?
+38. What are different ways to communicate with Components,  their sub components and cross components?
+39. What is EventEmitter and SubjectBehaviour?
+40. What is ViewChild and ViewChildren in Angular and their differnce?
+41. What is ContentChild and ContentChildren and their differnece?
+42. What is two way binding in Angular?
+43. What is interpolation and property binding in Angular and their differnce?
+44. What is ElementRef and TemplateRef?
+45. What is @Inject in Angular?
+46. What is ngStyle directive and How many ways to use it?
+47. What is ngClass directive and How many ways to use it?
+48. How many ways to use attributes?
+49. What are events in Angular?
+50. What is Encapsulation in Angular?it define the scpe of css immulative, native, none
+
+sql
+trigger
+user define function
+storprocedeu vs use define function
+cursers
+indexing
+ 
+ C#
+1. singlton and how create instance: In singolton pattren we use a class variable to assing instance from static static cunstructor. Static cunstructor checks the variable for null and if the varialble is null then it assigns object of the class to that variable. For saftey purpose locks are used when assigning object to the static variable so no two instance will be created.
+2. desing pattren
+3 static constructor
+4 abstrct class and member
+ interface
+ 
